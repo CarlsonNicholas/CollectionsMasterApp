@@ -46,7 +46,6 @@ namespace CollectionsMasterConsoleUI
             Console.WriteLine("All Numbers Reversed:");
 
             var reverse = numArray.Reverse();
-            Console.WriteLine(reverse);
             foreach (var item in reverse)
             {
                 Console.WriteLine(item);
